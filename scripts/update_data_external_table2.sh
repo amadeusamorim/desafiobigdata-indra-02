@@ -4,7 +4,7 @@ NOME_PASTA=$1
 
 echo "Efetuando a ingestão na tabela de alunos"
 cd ../dados/${NOME_PASTA}
-hdfs dfs -copyFromLocal alunos.csv ${HDFS_DIR}
+hdfs dfs -copyFromLocal alunos2.csv ${HDFS_DIR}
 
 
 # você devera após fazer os testes criar a segunda ingestão
